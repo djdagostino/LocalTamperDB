@@ -1,29 +1,43 @@
 ﻿@model IEnumerable<TestClusterProj.Models.WgeAmrtamperStaging>
 
-<h2>WGE AMRTamperStaging Data</h2>
+<h2>WGE Tamper Staging Data</h2>
+
+<form method="get" action="@Url.Action("Index")">
+    <div>
+        <label for="startDate">Start Date:</label>
+        <input type="date" name="startDate" id="startDate" />
+    </div>
+    <div>
+        <label for="endDate">End Date:</label>
+        <input type="date" name="endDate" id="endDate" />
+    </div>
+    <div>
+        <button type="submit">Filter</button>
+    </div>
+</form>
 
 <table class="table">
     <thead>
-        <tr>
-            <th>Category</th>
-            <th>DiscTime</th>
-            <th>EventTime</th>
-            <th>MeterName</th>
-            <th>TamperType</th>
-            <!-- Add other fields as needed -->
-        </tr>
+    <tr>
+        <th>Category</th>
+        <th>DiscTime</th>
+        <th>EventTime</th>
+        <th>MeterName</th>
+        <th>TamperType</th>
+        <!-- Add other fields as needed -->
+    </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Category</td>
-                <td>@item.DiscTime</td>
-                <td>@item.EventTime</td>
-                <td>@item.MeterName</td>
-                <td>@item.TamperType</td>
-                <!-- Add other fields as needed -->
-            </tr>
-        }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Category</td>
+            <td>@item.DiscTime</td>
+            <td>@item.EventTime</td>
+            <td>@item.MeterName</td>
+            <td>@item.TamperType</td>
+            <!-- Add other fields as needed -->
+        </tr>
+    }
     </tbody>
 </table>

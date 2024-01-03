@@ -135,3 +135,4 @@ C:\Users\ddagostino\Desktop\Test\TestClusterProj\obj\Debug\net8.0\refint\TestClu
 C:\Users\ddagostino\Desktop\Test\TestClusterProj\obj\Debug\net8.0\TestClusterProj.pdb
 C:\Users\ddagostino\Desktop\Test\TestClusterProj\obj\Debug\net8.0\TestClusterProj.genruntimeconfig.cache
 C:\Users\ddagostino\Desktop\Test\TestClusterProj\obj\Debug\net8.0\ref\TestClusterProj.dll
+C:\Users\ddagostino\Desktop\Test\TestClusterProj\obj\Debug\net8.0\TestClusterProj.sourcelink.json

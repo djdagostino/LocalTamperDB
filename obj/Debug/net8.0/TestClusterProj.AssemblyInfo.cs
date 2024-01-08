@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestClusterProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df55a83846c82fae775fab7e8bea0bc239bf9c15")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestClusterProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestClusterProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

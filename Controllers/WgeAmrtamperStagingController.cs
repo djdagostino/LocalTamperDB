@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TestClusterProj.Models;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace TestClusterProj.Controllers
 {
